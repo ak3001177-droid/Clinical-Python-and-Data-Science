@@ -1,0 +1,6 @@
+2026-06-02 16:03:11.298552, System BOOT : MRI Machine is online
+2026-06-02 16:11:30.603509, System BOOT : MRI Machine is online
+2026-06-02 16:11:51.823199, System BOOT : MRI Machine is online
+2026-06-02 16:12:16.457531, System BOOT : MRI Machine is online
+2026-06-02 16:13:01.623228, System BOOT : MRI Machine is online
+2026-06-02 16:13:17.696195, System BOOT : MRI Machine is online

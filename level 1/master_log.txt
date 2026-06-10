@@ -1,0 +1,2 @@
+{'name': 'Divyansh', 'Scan_type': 'MRI', 'Time': '2026-06-02 21:14:13.247534'}
+{'name': 'Gemini', 'Scan_type': 'AI', 'Time': '2026-06-02 21:21:49.071239'}

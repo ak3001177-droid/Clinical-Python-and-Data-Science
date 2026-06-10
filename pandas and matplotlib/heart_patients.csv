@@ -1,0 +1,11 @@
+Patient_ID,Age,Blood_Pressure,Cholesterol,Status
+101,45,120,200,Normal
+102,55,140,240,High
+103,60,150,260,High
+104,35,110,190,Normal
+105,42,130,210,Borderline
+106,65,160,280,High
+107,28,115,185,Normal
+108,50,135,220,Borderline
+109,70,145,250,High
+110,38,125,195,Normal
