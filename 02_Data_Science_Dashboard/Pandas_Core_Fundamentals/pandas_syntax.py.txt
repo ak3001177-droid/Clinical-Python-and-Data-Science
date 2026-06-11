@@ -1,0 +1,20 @@
+# 1. Initial Data Inspection (System Vitals Check)
+# pd.read_csv() / pd.read_excel(): Imports external datasets into the script environment for processing.
+# df.head(): Returns the first 5 rows of the DataFrame for a quick structural and data overview.
+# df.info(): Provides a concise summary of the DataFrame, including row/column counts and data types.
+# df.describe(): Generates descriptive statistics (e.g., mean, count, min, max) for numerical columns.
+
+# 2. Data Cleaning & Preprocessing
+# print(df.isnull().sum()): Calculates and displays the exact count of missing (null) values in each column.
+# df.fillna(): Imputes or replaces missing/null values with a specified value to prevent data loss.
+# df.dropna(): Eliminates entire rows (or columns) that contain null or missing values to ensure data integrity.
+# df.drop_duplicates(): Identifies and removes duplicate entries from the dataset.
+
+# 3. Data Filtering & Slicing (The Surgeon's Scalpel)
+# df[df['Column'] == 'Value']: Filters the DataFrame based on a specific boolean condition.
+# df.loc[] / df.iloc[]: Extracts specific rows or columns using label-based (.loc) or index-based (.iloc) selection.
+
+# 4. Aggregation, Merging & Exporting (Data Reporting)
+# df.groupby(): Groups data based on specified categories to perform aggregate functions (like sum or mean).
+# pd.merge(): Joins two distinct DataFrames based on a common key/column (e.g., merging patient vitals with billing records).
+# df.to_csv(): Exports the final, cleaned DataFrame to a local directory as a new CSV/Excel file.
