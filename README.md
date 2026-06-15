@@ -1,14 +1,25 @@
-# Clinical Python & Healthcare Data Science Portfolio
+# Clinical IT Automation & Medical Data Science Portfolio
 
 ## 🎯 Overview
-Welcome to my comprehensive healthcare technology portfolio. This repository showcases how Python automation and Data Science can be applied to streamline hospital operations and analyze clinical data.
+Welcome to my comprehensive healthcare technology portfolio. This repository showcases how Python automation, OS-level scripting, and Data Science can be applied to streamline hospital operations, manage patient records, and analyze clinical data.
 
 ## 📁 Repository Structure
 
-### 1. [01_Clinical_Python_Automation](./01_Clinical_Python_Automation)
-* **Focus:** Core Python syntax, functions, and control flow automation based on the Google IT Automation program.
-* **Key Project:** Emergency Ward Patient Triage Priority System.
+### 1. [01_Hospital_Billing_System](./01_Hospital_Billing_System)
+* **Focus:** Core Python syntax, functions, and control flow.
+* **Description:** Contains foundational scripts for automating patient triage priorities, billing systems, and basic logic building.
 
-### 2. [02_Medical_Data_Science](./02_Medical_Data_Science)
-* **Focus:** Data manipulation and medical data visualization using Pandas and Matplotlib.
-* **Key Assets:** Clinical Data Analytics Syntax Cheatsheets for managing patient records and scan volumes (CT/MRI).
+### 2. [02_Data_Science_Dashboard](./02_Data_Science_Dashboard)
+* **Focus:** Clinical data manipulation and visualization.
+* **Description:** Includes comprehensive Data Science syntax guides (Pandas, Matplotlib) for analyzing hospital datasets, null values, and rendering medical charts.
+
+### 3. [03_OS_File_Automation](./03_OS_File_Automation)
+* **Focus:** Operating System interaction, bulk file handling, and directory management.
+* **Key Scripts & Architecture:**
+  * `master_file_organizer.py` & `automated_file_transfer.py`: Automating the sorting and transfer of medical text reports.
+  * `bulk_rename.py` & `crash_and_rename.py`: Batch processing and renaming of `PGI_Patients` and `PGI_Discharged` folder records.
+  * `os_module_basics.py` & `text_handler.py`: Managing local OS environment logs and automated patient log generation.
+
+### 4. [04_Google_IT_Automation_Certificate](./04_Google_IT_Automation_Certificate)
+* **Focus:** Official coursework, graded assessments, and structured learning.
+* **Description:** Contains tracking and completed modules/assessments from the Google IT Automation program.
