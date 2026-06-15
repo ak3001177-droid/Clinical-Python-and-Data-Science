@@ -10,10 +10,9 @@ This directory serves as a comprehensive tracker for my progress through the Goo
 * **Focus:** Syntax, automation logic, data structures, and Object-Oriented Programming (OOP).
 * **Progress:** - [x] **Module 1:** Hello Python & Automation Basics (Environment setup, CLI basics)
   - [x] **Module 2:** Basic Python Syntax & Conditionals (Variables, Functions, `if/elif/else`)
-  - [ ] **Module 3:** Loops (Loops iteration, `while` and `for` control flow)
-  - [ ] **Module 4:** Strings, Lists, and Dictionaries (Complex Data Structures)
-  - [ ] **Module 5:** Object-Oriented Programming (Writing reusable classes and methods)
-  - [ ] **Module 6:** Final Project (Combining all syntax for a real-world automation tool)
+  - [x] **Module 3:** Loops and Recursion (Loops iteration, `while` and `for` control flow)
+  - [x] **Module 4:** Strings, Lists, and Dictionaries and Object-Oriented Programming(Complex Data Structures)
+  - [x] **Module 5:** Final Project (Combining all syntax for a real-world automation tool)
 
 ---
 
