@@ -21,5 +21,5 @@ Welcome to my comprehensive healthcare technology portfolio. This repository sho
   * `os_module_basics.py` & `text_handler.py`: Managing local OS environment logs and automated patient log generation.
 
 ### 4. [04_Google_IT_Automation_Certificate](./04_Google_IT_Automation_Certificate)
-* **Focus:** Official coursework, graded assessments, and structured learning.
-* **Description:** Contains tracking and completed modules/assessments from the Google IT Automation program.
+* **Focus:** Professional Google Certification, Advanced Systems Scripting, Version Control, and Cloud Configuration.
+* **Description:** This dedicated directory tracks my rigorous technical journey through the official 6-course **Google IT Automation with Python Professional Certificate**. It showcases my evolution from fundamental coding to mastering operating system interactions, automated system administration, version control at scale, infrastructure troubleshooting, and deploying real-world automation workflows.
