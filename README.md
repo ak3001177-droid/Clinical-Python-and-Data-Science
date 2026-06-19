@@ -22,4 +22,4 @@ Welcome to my comprehensive healthcare technology portfolio. This repository sho
 
 ### 4. [04_Google_IT_Automation_Certificate](./04_Google_IT_Automation_Certificate)
 * **Focus:** Professional Google Certification, Advanced Systems Scripting, Version Control, and Cloud Configuration.
-* **Description:** This dedicated directory tracks my rigorous technical journey through the official 6-course **Google IT Automation with Python Professional Certificate**. It showcases my evolution from fundamental coding to mastering operating system interactions, automated system administration, version control at scale, infrastructure troubleshooting, and deploying real-world automation workflows.
+* **Description:** This dedicated directory tracks my rigorous technical journey through the official 7-course **Google IT Automation with Python Professional Certificate**. It showcases my evolution from fundamental coding to mastering operating system interactions, automated system administration, version control at scale, infrastructure troubleshooting, and deploying real-world automation workflows.
