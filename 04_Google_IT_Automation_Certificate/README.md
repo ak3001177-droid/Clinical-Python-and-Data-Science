@@ -44,13 +44,45 @@ Dictionaries are faster than lists because they use index keys instead of search
 * `dict1 | dict2`: Merge operator. Combines items. If keys clash, the one on the right wins.
 * `dict1 |= dict2`: Update operator. Updates the original dictionary in place.
 
-## ⚡ The Power of List Comprehensions
-List comprehensions replace 3-4 lines of a `for` loop into a single, efficient line.
+## ⚡ The Magic of List Comprehensions
+List comprehensions are a powerful and Pythonic way to create new lists from existing sequences (like lists, ranges, or strings) in just **one single line** of code. It replaces 3-4 lines of a traditional `for` loop.
 
-1.  **Basic:** `[action for item in list]`
-2.  **With Filter:** `[action for item in list if condition]`
-3.  **With If-Else:** `[action_if_true if condition else action_if_false for item in list]`
-  - [x] **Module 5:** Final Project (Combining all syntax for a real-world automation tool)
+### The 3 Golden Rules & Syntax:
+
+**1. Basic Loop (No Conditions)**
+* **Rule:** Do something to every item in the sequence.
+* **Formula:** `[action  for  item in list]`
+* **Example:** Add 2 to every number in a range.
+    ```python
+    # Traditional way:
+    new_list = []
+    for n in range(2, 4):
+        new_list.append(n + 2)
+
+    # List Comprehension way:
+    new_list = [n + 2 for n in range(2, 4)] 
+    # Output: [4, 5]
+    ```
+
+**2. Filtering with 'If' (Condition at the END)**
+* **Rule:** If you only want to extract or keep specific items (and ignore the rest), the `if` statement goes at the *end*.
+* **Formula:** `[action  for  item in list  if condition]`
+* **Example:** Keep only the odd numbers.
+    ```python
+    odd_nums = [x for x in range(1, 11) if x % 2 != 0]
+    ```
+
+**3. Replacing with 'If-Else' (Condition at the BEGINNING)**
+* **Rule:** If you want to modify an item based on a condition (Plan A vs Plan B), the entire `if-else` block must go *before* the `for` loop.
+* **Formula:** `[action_if_true  if condition  else action_if_false  for  item in list]`
+* **Example:** Rename `.hpp` files to `.h`, but leave other files exactly as they are.
+    ```python
+    old_files = ["program.c", "stdio.hpp", "a.out"]
+    
+    updated_files = [file.replace(".hpp", ".h") if file.endswith(".hpp") else file for file in old_files]
+    # Output: ['program.c', 'stdio.h', 'a.out']
+    ```
+
 
 ---
 
