@@ -123,3 +123,37 @@ jonagold = Apple("red", "sweet")
 # Calling the method
 print(jonagold.description())
 # Output: This apple is red and its flavor is sweet.
+
+# Course 2: Using Python to Interact with the Operating System 🚀
+**Google IT Automation with Python Professional Certificate**
+
+## 📖 Module 1: Getting Your Python On (Completed)
+This module focuses on the fundamentals of using Python to interact directly with the local Operating System, managing packages, and understanding how to write scripts that monitor system health.
+
+### 🛠️ Key Modules & Concepts Learned
+
+#### 1. Built-in Modules (Standard Library)
+No installation required for these modules; they come pre-packaged with Python.
+* **`math`**: Used for advanced mathematical operations (e.g., `math.sqrt()`, `math.pi`).
+* **`shutil`**: Used for high-level file operations and system checks. 
+  * *Example:* `shutil.disk_usage("/")` to monitor free disk space.
+
+#### 2. External Modules (Third-Party)
+Require installation using the Python Package Manager (`pip`).
+* **`arrow`**: A smarter, more human-friendly library for creating, manipulating, and formatting dates and times.
+  * *Key functions:* `.now()`, `.shift(days=14)`, `.humanize()` (returns readable formats like "in 2 weeks").
+* **`Pillow` (Imported as `PIL`)**: The modern Python Imaging Library used for generating and manipulating image files via code.
+  * *Key functions:* `Image.new()`, `img.show()`.
+* **`psutil`**: A powerful tool for retrieving information on running processes and system utilization (CPU, memory, disks, network, sensors).
+  * *Key functions:* `psutil.cpu_percent()`, `psutil.sensors_battery()`.
+
+### 💻 Scripts Created in this Module
+1. **`01_os_basics.py`**: Explored date/time manipulation (Arrow), mathematical calculations (Math), and basic image generation (Pillow).
+2. **`02_system_health_check.py`**: Built a real-time system dashboard to monitor Disk Space, CPU Usage, and Battery Status using OS-level commands.
+
+### 📦 Important Terminal Commands
+**Package Management:**
+```bash
+pip install arrow
+pip install Pillow
+pip install psutil
