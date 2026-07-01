@@ -124,8 +124,10 @@ jonagold = Apple("red", "sweet")
 print(jonagold.description())
 # Output: This apple is red and its flavor is sweet.
 
-# Course 2: Using Python to Interact with the Operating System 🚀
-**Google IT Automation with Python Professional Certificate**
+---
+
+
+# 🚀 COURSE 2: Using Python to Interact with the Operating System
 
 ## 📖 Module 1: Getting Your Python On (Completed)
 This module focuses on the fundamentals of using Python to interact directly with the local Operating System, managing packages, and understanding how to write scripts that monitor system health.
